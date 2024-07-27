@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Rating from '../Components/Rating';
 import { Link } from 'react-router-dom';
 import img1 from '../assets/images/categoryTab/01.jpg'
+import img2 from '../assets/images/categoryTab/02.jpg'
 
 
 const title = "Our Products";
@@ -17,7 +18,7 @@ price: '$199.00',
 id: 1,
 },
 {
-imgUrl: 'src/assets/images/categoryTab/02.jpg',
+imgUrl: img2,
 cate: 'Bags',
 title: 'Asthetic Bags',
 author: 'assets/images/course/author/02.jpg',
