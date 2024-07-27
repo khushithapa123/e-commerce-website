@@ -1,6 +1,8 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom';
+import home1 from '../assets/images/category/01.jpg'
+
  
 
 const subTitle = "Choose Any Products";
@@ -10,7 +12,7 @@ const btnText = "Get Started Now";
 
 const categoryList = [
 {
-imgUrl: 'src/assets/images/category/01.jpg',
+imgUrl: home1,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'DSLR Camera',
