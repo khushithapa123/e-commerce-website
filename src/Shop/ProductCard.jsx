@@ -12,6 +12,7 @@ const ProductCard = ({GridList, products}) => {
                 <div key={i} className='col-lg-4 col-md-6 col-12'>
                     <div className='product-item'>
                         {/* product images */}
+                        {/* img */}
                         <div className='product-thumb'>
                             <div className='pro-thumb'>
                                 <img src={product.img} alt="" />

@@ -1,43 +1,50 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import imgurl1 from '../assets/images/clients/avater.jpg'
+import imgurl2 from '../assets/images/clients/avater.jpg'
+import imgurl3 from '../assets/images/clients/avater.jpg'
+import imgurl4 from '../assets/images/clients/avater.jpg'
+import imgurl5 from '../assets/images/clients/avater.jpg'
+import imgurl6 from '../assets/images/clients/avater.jpg'
+import imgurl7 from '../assets/images/clients/avater.jpg'
 
-const title = "More Then 60,000 Customers";
+const title = "More Then 50,000 Customers";
 
 const desc = "Buy products on your any device with our app & enjoy your time what you want. Just download & install & start to shopping";
 
 const clientsList = [
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: imgurl1,
 imgAlt: 'education thumb rajibraj91 rajibraj',
-text: 'Join with Us',
+text: 'From UP',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: imgurl2,
 imgAlt: 'education thumb rajibraj91 rajibraj',
-text: 'Join with Us',
+text: 'From Delhi',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: imgurl3,
 imgAlt: 'education thumb rajibraj91 rajibraj',
-text: 'Join with Us',
+text: 'From Mumbai',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: imgurl4,
 imgAlt: 'education thumb rajibraj91 rajibraj',
-text: 'Join with Us',
+text: 'From New York',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: imgurl5,
 imgAlt: 'education thumb rajibraj91 rajibraj',
-text: 'Join with Us',
+text: 'From India',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: imgurl6,
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'From Uk',
 },
 {
-imgUrl: '/src/assets/images/clients/avater.jpg',
+imgUrl: imgurl7,
 imgAlt: 'education thumb rajibraj91 rajibraj',
 text: 'From USA',
 },

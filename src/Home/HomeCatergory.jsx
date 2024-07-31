@@ -2,6 +2,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import home1 from '../assets/images/category/01.jpg'
+import home2 from '../assets/images/category/02.jpg'
+import home3 from '../assets/images/category/03.jpg'
+import home4 from '../assets/images/category/04.jpg'
+import home5 from '../assets/images/category/05.jpg'
+import home6 from '../assets/images/category/06.jpg'
 
  
 
@@ -18,34 +23,34 @@ iconName: 'icofont-brand-windows',
 title: 'DSLR Camera',
 },
 {
-imgUrl: 'src/assets/images/category/02.jpg',
+imgUrl: home2,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Shoes',
 },
 {
-imgUrl: 'src/assets/images/category/03.jpg',
-imgAlt: 'category rajibraj91 rajibraj',
-iconName: 'icofont-brand-windows',
-title: 'Photography',
-},
-{
-imgUrl: 'src/assets/images/category/04.jpg',
-imgAlt: 'category rajibraj91 rajibraj',
-iconName: 'icofont-brand-windows',
-title: 'Formal Dress',
-},
-{
-imgUrl: 'src/assets/images/category/05.jpg',
-imgAlt: 'category rajibraj91 rajibraj',
-iconName: 'icofont-brand-windows',
-title: 'Colorful Bags',
-},
-{
-imgUrl: 'src/assets/images/category/06.jpg',
+imgUrl: home3,
 imgAlt: 'category rajibraj91 rajibraj',
 iconName: 'icofont-brand-windows',
 title: 'Home Decor',
+},
+{
+imgUrl: home4,
+imgAlt: 'category rajibraj91 rajibraj',
+iconName: 'icofont-brand-windows',
+title: 'Artifical Plants',
+},
+{
+imgUrl: home6,
+imgAlt: 'category rajibraj91 rajibraj',
+iconName: 'icofont-brand-windows',
+title: 'Women Dress',
+},
+{
+imgUrl: home5,
+imgAlt: 'category rajibraj91 rajibraj',
+iconName: 'icofont-brand-windows',
+title: 'Women bag',
 },
 ]
 const HomeCatergory = () => {
